@@ -259,6 +259,12 @@ function ProductList({ onHomeClick }) {
         fontSize: '30px',
         textDecoration: 'none',
     }
+    const styleB = {
+        color: 'white',
+        fontSize: '30px',
+        textDecoration: 'none',
+        marginLeft: '285px',
+    }
 
     const handleAddToCart = (product) => {
         dispatch(addItem(product));
@@ -304,7 +310,7 @@ function ProductList({ onHomeClick }) {
                     </div>
                 </div>
                 <div style={styleObjUl}>
-                    <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>Plants</a></div>
+                    <div> <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleB}>Plants</a></div>
                     <div style={{ position: 'relative' }}>
                         <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
                             <h1 className='cart'>
@@ -317,9 +323,9 @@ function ProductList({ onHomeClick }) {
                                 {totalCartItems > 0 && (
                                     <span style={{
                                         position: 'absolute',
-                                        top: '10px',
-                                        right: '10px',
-                                        backgroundColor: '#ff6b6b',
+                                        top: '17px',
+                                        right: '17px',
+                                        // backgroundColor: '#ff6b6b',
                                         color: 'white',
                                         borderRadius: '50%',
                                         width: '30px',
@@ -327,7 +333,7 @@ function ProductList({ onHomeClick }) {
                                         display: 'flex',
                                         alignItems: 'center',
                                         justifyContent: 'center',
-                                        fontSize: '16px',
+                                        fontSize: '20px',
                                         fontWeight: 'bold'
                                     }}>
                                         {totalCartItems}
@@ -343,7 +349,7 @@ function ProductList({ onHomeClick }) {
                     {plantsArray.map((category, index) => (
                         <div key={index}>
                             <h1 >
-                                <div>{category.category}</div>
+                                <div style={{ textAlign: 'center' }}>{category.category}</div>
                             </h1>
                             <div className="product-list">
                                 {category.plants.map((plant, plantIndex) => (
