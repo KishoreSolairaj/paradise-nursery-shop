@@ -245,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 - GitHub: [@KishoreSolairaj](https://github.com/KishoreSolairaj)
-- LinkedIn: [@KishoreSolairaj](www.linkedin.com/in/kishoresolairaj)
+- LinkedIn: [@KishoreSolairaj](https://www.linkedin.com/in/kishoresolairaj)
 - Email: talktokishoresolairaj@gmail.com
 
 ---
