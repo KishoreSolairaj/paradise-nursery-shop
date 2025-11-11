@@ -4,21 +4,7 @@
 
 A modern, fully-functional e-commerce web application for browsing and purchasing plants online. Built with React and Redux for seamless state management and real-time shopping cart updates.
 
----
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Components Overview](#components-overview)
-- [Redux State Management](#redux-state-management)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
